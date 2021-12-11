@@ -1,0 +1,322 @@
+{
+    "version": "0.4",
+    "title": "Popup",
+    "type": "section",
+    "metadata": {
+        "template_type": "section",
+        "elementor_pro_required": true,
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "5268e29b",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 640
+                },
+                "custom_height": {
+                    "unit": "vh",
+                    "size": 100
+                },
+                "layout": "full_width",
+                "background_background": "classic",
+                "background_color": "#ffffff"
+            },
+            "elements": [
+                {
+                    "id": "16242e80",
+                    "settings": {
+                        "_column_size": 100,
+                        "background_background": "classic",
+                        "background_color": "#ff3600",
+                        "background_color_stop": {
+                            "unit": "%",
+                            "size": 50
+                        },
+                        "background_color_b": "#ffffff",
+                        "background_color_b_stop": {
+                            "unit": "%",
+                            "size": 15
+                        },
+                        "background_gradient_angle": {
+                            "unit": "deg",
+                            "size": 210
+                        },
+                        "background_image": {
+                            "url": "https:\/\/wp.envatoextensions.com\/collection-10\/wp-content\/uploads\/sites\/13\/2018\/05\/bg-speak.jpg",
+                            "id": 327
+                        },
+                        "background_size": "cover",
+                        "background_overlay_background": "gradient",
+                        "background_overlay_color": "#ff3600",
+                        "background_overlay_color_stop": {
+                            "unit": "%",
+                            "size": 53
+                        },
+                        "background_overlay_color_b": "rgba(255,54,0,0)",
+                        "background_overlay_color_b_stop": {
+                            "unit": "%",
+                            "size": 17
+                        },
+                        "background_overlay_gradient_angle": {
+                            "unit": "deg",
+                            "size": 220
+                        },
+                        "background_overlay_opacity": {
+                            "unit": "px",
+                            "size": 0.85999999999999999
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "7267e0fb",
+                            "settings": {
+                                "structure": "20",
+                                "background_background": "classic",
+                                "background_repeat": "no-repeat",
+                                "background_size": "contain",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": 0,
+                                    "bottom": "0",
+                                    "left": 0,
+                                    "isLinked": true
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "2ca90ac",
+                                    "settings": {
+                                        "_column_size": 50,
+                                        "_inline_size": 32.418999999999997,
+                                        "background_background": "classic",
+                                        "background_color": "#f5f6f7",
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "20",
+                                            "right": "20",
+                                            "bottom": "20",
+                                            "left": "20",
+                                            "isLinked": true
+                                        },
+                                        "background_image": {
+                                            "url": "https:\/\/wp.envatoextensions.com\/collection-10\/wp-content\/uploads\/sites\/13\/2018\/05\/portrait-edited-4.jpg",
+                                            "id": 146
+                                        },
+                                        "background_position": "center center",
+                                        "background_size": "cover",
+                                        "margin_mobile": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": true
+                                        },
+                                        "padding_mobile": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": true
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "7c20f335",
+                                            "settings": {
+                                                "space_mobile": {
+                                                    "unit": "px",
+                                                    "size": 308
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "spacer",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "6202adb5",
+                                    "settings": {
+                                        "_column_size": 50,
+                                        "_inline_size": 67.581000000000003,
+                                        "background_background": "classic",
+                                        "background_color": "#f5f6f7",
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "20",
+                                            "right": "20",
+                                            "bottom": "20",
+                                            "left": "20",
+                                            "isLinked": true
+                                        },
+                                        "margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "10",
+                                            "isLinked": false
+                                        },
+                                        "margin_mobile": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": true
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "63b5ca5a",
+                                            "settings": {
+                                                "title": "JOIN US SEPT 6",
+                                                "header_size": "h3",
+                                                "title_color": "#1d1d37",
+                                                "typography_typography": "custom",
+                                                "typography_font_weight": "500"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "11c4d272",
+                                            "settings": {
+                                                "title": "TedX <b>Sydney<\/b>",
+                                                "title_color": "#1d1d37",
+                                                "typography_typography": "custom",
+                                                "typography_font_size": {
+                                                    "unit": "em",
+                                                    "size": 2
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "61512665",
+                                            "settings": {
+                                                "weight": {
+                                                    "unit": "px",
+                                                    "size": 2
+                                                },
+                                                "color": "#ff3600",
+                                                "width": {
+                                                    "unit": "px",
+                                                    "size": 150
+                                                },
+                                                "gap": {
+                                                    "unit": "px",
+                                                    "size": 2
+                                                },
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "-15",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "divider",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "597b27b0",
+                                            "settings": {
+                                                "editor": "<p>Our CEO Gavin Finch explains exciting innovations in industrial materials for a greener future.<\/p>",
+                                                "text_color": "#434343",
+                                                "typography_typography": "custom",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.5
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "766e345a",
+                                            "settings": {
+                                                "editor": "<p>4:30PM, Marriot Convention Hall<\/p>",
+                                                "text_color": "#434343",
+                                                "typography_typography": "custom",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.5
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "3e626c0a",
+                                            "settings": {
+                                                "text": "Get Discounted Tickets",
+                                                "button_text_color": "#ffffff",
+                                                "background_color": "#ff3600",
+                                                "hover_color": "#ff3600",
+                                                "button_background_hover_color": "#ffffff",
+                                                "border_border": "solid",
+                                                "border_width": {
+                                                    "unit": "px",
+                                                    "top": "1",
+                                                    "right": "1",
+                                                    "bottom": "1",
+                                                    "left": "1",
+                                                    "isLinked": true
+                                                },
+                                                "border_color": "#ff3600",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": true
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "close_button_hover_color": "#cc3204"
+    }
+}

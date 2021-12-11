@@ -1,0 +1,8 @@
+[04-Sep-2021 06:54:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/tyonm2awr8x4/public_html/iscfbd.com/wp-content/themes/twentynineteen/404.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tyonm2awr8x4/public_html/iscfbd.com/wp-content/themes/twentynineteen/404.php on line 12
+[04-Sep-2021 06:55:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/tyonm2awr8x4/public_html/iscfbd.com/wp-content/themes/twentynineteen/404.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/tyonm2awr8x4/public_html/iscfbd.com/wp-content/themes/twentynineteen/404.php on line 12

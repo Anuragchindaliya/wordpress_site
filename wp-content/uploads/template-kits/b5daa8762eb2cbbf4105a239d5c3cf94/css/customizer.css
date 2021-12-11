@@ -1,0 +1,372 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Home
+# About Us
+# Services
+# FAQ
+# Projects
+	## Project 2 Columns
+	## Project 3 Columns
+	## Project 4 Columns
+# Contact Us
+# Contact Us - Style 2
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Home
+--------------------------------------------------------------*/
+.collection-10-main-slider .slick-slide-inner{
+	position:relative;
+	overflow:hidden;
+}
+
+.collection-10-main-slider .slick-slide-inner:before{
+	content:"";
+	display:block;
+	position:absolute;
+	top:-1000px;
+	left:-1200px;
+	width:2000px;
+	height:2000px;
+	background-color:#ff3600;
+	opacity:0.7;
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	transform:rotate(45deg);
+	z-index:99;
+}
+
+.collection-10-main-slider .slick-slide-inner:after{
+	content:"";
+	display:block;
+	position:absolute;
+	top:50%;
+	left:100px;
+	width:250px;
+	height:1px;
+	margin-top:75px;
+	background-color:#fff;
+	opacity:0.7;
+	z-index:102;
+}
+
+/*.collection-10-main-slider .slick-slide-inner a:before{
+	content:"Contact Us";
+	display:inline-block;
+	position:absolute;
+	top:50%;
+	margin-top:100px;
+	font-family:Roboto, sans-serif;
+	text-transform:uppercase;
+	left:100px;
+	padding:10px 20px;
+	border:2px solid #fff;
+	color:#fff;
+	z-index:101;
+}*/
+
+.collection-10-main-slider .elementor-image-carousel-caption{
+	position:absolute;
+	top:50%;
+	left:100px;
+	max-width:600px;
+	text-align:left !important;
+	-moz-transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	transform:translateY(-50%);
+	z-index:100;
+}
+
+@media only screen and ( max-width: 1550px ){
+	.collection-10-main-slider .slick-slide-inner:before{
+		left:-1360px;
+	}
+}
+
+@media only screen and ( max-width: 1200px ){
+	.collection-10-main-slider .elementor-image-carousel-caption{
+		font-size:3em !important;
+	}
+
+	.home-out-col > .elementor-column-wrap{
+		margin-top:0px !important;
+	}
+}
+
+@media only screen and ( max-width: 1100px ){
+	.collection-10-main-slider .slick-slide-inner:before{
+		top:0px;
+		left:0px;
+		width:650px;
+		-moz-transform:none;
+		-webkit-transform:none;
+		transform:none;
+	}
+}
+
+@media only screen and ( max-width: 920px ){
+
+	.collection-10-main-slider .slick-slide-inner:before{
+		display:none;
+	}
+
+	.collection-10-main-slider .slick-slide-inner:after{
+		display:none;
+	}
+
+	.collection-10-main-slider .slick-slide-inner a:before{
+		display:none;
+	}
+
+	.collection-10-main-slider .elementor-image-carousel-caption{
+		position:static;
+		max-width:none;
+		text-align:left !important;
+		-moz-transform:none;
+		-webkit-transform:none;
+		transform:none;
+		font-size:2em;
+		padding:30px;
+		background-color:#ff3600;
+	}
+}
+
+@media only screen and ( max-width: 920px ){
+	.collection-10-main-slider .elementor-image-carousel-caption{
+		font-size:1.5em !important;
+	}
+}
+
+@media only screen and ( max-width: 668px ){
+	.collection-10-main-slider .elementor-image-carousel-caption{
+		font-size:1.3em !important;
+	}
+}
+
+/*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
+
+.collection-10-no-col{
+	min-width:75px;
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.collection-10-service-image .wp-caption{
+	position:relative;
+}
+.collection-10-service-image .wp-caption-text{
+	position:absolute;
+	bottom:70px;
+	left:20px;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.4);
+	z-index:99;
+}
+
+.collection-10-service-image .wp-caption a:after{
+	content:"Read More";
+	font-family:"Roboto", sans-serif;
+	padding:10px 20px;
+	font-size:0.871em;
+	line-height:1em;
+	border:1px solid #fff;
+	color:#fff;
+	position:absolute;
+	bottom:20px;
+	left:20px;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.4);
+	box-shadow:1px 1px 1px rgba(0,0,0,0.4);
+	z-index:100;
+}
+
+.collection-10-service-image .wp-caption a:hover:after{
+	background-color:#fff;
+	color:#1d1d37;
+	text-shadow:none;
+}
+
+/*--------------------------------------------------------------
+# FAQ
+--------------------------------------------------------------*/
+.collection-10-accordion .elementor-toggle-item{
+	border: 2px solid #f1f2f4;
+	padding:50px 0;
+	margin-bottom:20px !important;
+}
+
+.collection-10-accordion .elementor-toggle-icon{
+	display:none !important;
+}
+
+.collection-10-accordion .elementor-tab-title{
+	border-bottom:0 !important;
+	outline:none;
+	font-size:22px;
+	line-height:2.2rem;
+	margin:0 165px !important;
+	padding:0 30px !important;
+	position:relative;
+	color:#23232c !important;
+}
+
+.collection-10-accordion .elementor-tab-title:before{
+	content:"QUESTIONS";
+	display:block;
+	position:absolute;
+	top:7px;
+	left:-100px;
+	font-size:12px;
+	line-height:2.1em;
+	color:#7c7c80;
+}
+
+.collection-10-accordion .elementor-tab-title:after{
+	content:"\f067";
+	font-family:'FontAwesome';
+	display:block;
+	position:absolute;
+	top:-13px;
+	right:-100px;
+	width:50px;
+	height:50px;
+	font-size:14px;
+	text-align:center;
+	line-height:47px;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+	color:#7c7c80;
+	border:2px solid #f1f2f4;
+	-webkit-transition:all 0.5s cubic-bezier(.22, .52, .25, .93);
+	-moz-transition:all 0.5s cubic-bezier(.22, .52, .25, .93);
+	transition:all 0.5s cubic-bezier(.22, .52, .25, .93);
+}
+
+.collection-10-accordion .elementor-tab-title.elementor-active:after{
+	content:"\f068";
+	color:#23232c;
+	border:2px solid #23232c;
+}
+
+.collection-10-accordion .elementor-tab-content{
+	border-bottom:0 !important;
+	outline:none;
+	font-size:16px;
+	line-height:1.7em;
+	margin:0 165px !important;
+	padding:50px 30px 0 !important;
+	position:relative;
+}
+
+@media only screen and (max-width:668px){
+	.collection-10-accordion .elementor-tab-title{
+		margin-left:0px !important;
+		margin-right:70px !important;
+	}
+
+	.collection-10-accordion .elementor-tab-title:before{
+		display:none;
+	}
+
+	.collection-10-accordion .elementor-tab-title:after{
+		right:-30px;
+	}
+
+	.collection-10-accordion .elementor-tab-content{
+		margin-left:0px !important;
+		margin-right:20px !important;
+	}
+}
+
+/*--------------------------------------------------------------
+# Projects
+--------------------------------------------------------------*/
+.project-col .wp-caption{
+    position:relative;
+	overflow:hidden;
+}
+.project-col .wp-caption img{
+    transition:opacity 0.5s ease-out;
+    -webkit-transition:opacity 0.5s ease-out;
+    -moz-transition:opacity 0.5s ease-out;
+}
+.project-col .wp-caption:hover img{
+    opacity: 0.9;
+}
+.project-col .wp-caption .wp-caption-text{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: #fff;
+	padding-left:28px;
+	padding-right:14px;
+}
+.project-col .wp-caption .wp-caption-text:after{
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	right: -75px;
+	height: 0px;
+	width: 0px;
+	border-left: 75px solid #fff;
+	border-bottom: 75px solid transparent;
+	border-top: 0px solid transparent;
+}
+/*--------------------------------------------------------------
+## Projects 2 Columns
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Projects 3 Columns
+--------------------------------------------------------------*/
+.project-col-3 .wp-caption .wp-caption-text{
+	position: absolute;
+	padding-left:18px;
+	padding-right:10px;
+}
+
+/*--------------------------------------------------------------
+## Projects 4 Columns
+--------------------------------------------------------------*/
+.project-col-4 .wp-caption .wp-caption-text{
+    position: absolute;
+	padding-left:14px;
+	padding-right:10px;
+}
+
+/*--------------------------------------------------------------
+# Contact Us
+--------------------------------------------------------------*/
+.heading-with-border{
+    position:relative;
+}
+.heading-with-border:after{
+    content:"";
+    display:block;
+    position:absolute;
+    bottom:-15px;
+    left:0px;
+    height:2px;
+    width:110px;
+    background-color:#ff3600;
+}
+
+/*--------------------------------------------------------------
+# Contact Us - Style 2
+--------------------------------------------------------------*/
+.heading-with-border{
+    position:relative;
+}
+.heading-with-border:after{
+    content:"";
+    display:block;
+    position:absolute;
+    bottom:-15px;
+    left:0px;
+    height:2px;
+    width:110px;
+    background-color:#ff3600;
+}
